@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@layer utilities {
+  .loader {
+    @apply border-4 border-indigo-400 border-t-transparent rounded-full w-8 h-8 animate-spin;
+  }
+}
